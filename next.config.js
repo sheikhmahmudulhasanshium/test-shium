@@ -1,7 +1,7 @@
 // next.config.js
 module.exports = {
   images: {
-    domains: ['media.licdn.com'],
+    domains: ['scontent.fdac24-3.fna.fbcdn.net'],
   },
   
 }

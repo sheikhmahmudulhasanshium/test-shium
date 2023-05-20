@@ -22,7 +22,7 @@ const Sidebar = () => {
   
   return (
     <>
-      <Image src="https://media.licdn.com/dms/image/D5603AQFj6n7Sn2GwEQ/profile-displayphoto-shrink_800_800/0/1675445160674?e=1684368000&v=beta&t=nEQiCGYmbxDyYcIpO1LhSxqTUnd8TTOAvld2zWB2Ku4" 
+      <Image src="https://scontent.fdac24-3.fna.fbcdn.net/v/t39.30808-6/328811966_616559640278489_6401651324655420191_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHYgjkJrB0FWwNwK1tyHx_j4YpZEI_10pvhilkQj_XSm4SDlwSV1ZqipPhtMZwzaEoZQ4exi3b7xh3Z4y--sm1s&_nc_ohc=M4KedyvhwJgAX-coEIu&_nc_ht=scontent.fdac24-3.fna&oh=00_AfAfii8hMLuLkgOX5npk0fFjJw-rafbO9UfEaCOMxN2EFw&oe=646DF4A4" 
       className='mx-auto rounded-full ' height='128' width='128' layout='intrinsic' quality='100'
       alt="Profile-Pic"/>
       <motion.h3 initial={{rotate:30, scale: 0 }} animate={{ rotate: 0, scale: 1 }}

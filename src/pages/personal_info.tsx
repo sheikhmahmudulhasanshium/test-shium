@@ -11,9 +11,9 @@ const personal_info = () => {
   return (
     <motion.div variants={fadeInUp} >
 
-    <div className='flex flex-col flex-grow  px-6 pt-2 my-6 py-4 dark:bg-slate-500 dark:text-white font-medium tracking-wider font-kaushan overflow-x-scroll '>
+    <div className='flex flex-col flex-grow px-6 py-4 pt-2 my-6 overflow-x-scroll font-medium tracking-wider dark:bg-slate-500 dark:text-white font-kaushan '>
         <div className='overflow-y-scroll' style={{height:'95vh'}}>
-            <div className='flex flex-auto mx-2   gap-x-6'>
+            <div className='flex flex-auto mx-2 gap-x-6'>
                 <div>
                     <p><b>Name: </b> Sheikh Mahmudul Hasan Shium</p>
                     <p><b>Father&#39;s Name: </b> Sheikh Akram Uddin</p>
@@ -36,10 +36,10 @@ const personal_info = () => {
             src="./images/shium2.JPG" className='mx-auto rounded-lg ' height='108' width='128'  alt="Profile-Pic"/>    
                 
             </div>
-        <div className=' py-5 mx-2  gap-2 font-medium tracking-wider'>
+        <div className='gap-2 py-5 mx-2 font-medium tracking-wider '>
             <div >
             <b>Present Address: </b>
-                <p className='text-sm py-2'>
+                <p className='py-2 text-sm'>
                     <b> Town/City: </b> Ashuganj, 
                     <b> District: </b> Brahmanbaria,
                     <b> Division: </b> Chittagong,
@@ -49,7 +49,7 @@ const personal_info = () => {
             
             <div className='py-4'>
             <b>Permanent Address: </b>
-                <p className='text-sm py-2 '>
+                <p className='py-2 text-sm '>
                     <b> Village: </b> Teligati,
                     <b> District: </b> Khulna,
                     <b> Division: </b> Khulna,
@@ -58,11 +58,11 @@ const personal_info = () => {
             </div>
                 
         </div>
-        <div className='flex flex-auto py-2 mx-2  gap-2 '>
+        <div className='flex flex-auto gap-2 py-2 mx-2 '>
             <div className=''>
                 <b>Academic Qualification:</b>
-                <div className='flex flex-wrap px-2 py-4 my-4 gap-5  text-shiumcustom font-extralight tracking-tighter dark:bg-gray-200 bg-slate-100 rounded-lg overflow-x-scroll'style={{width:"95vh"}} >
-                <div className='grid grid-cols-6 gap-5 mx-4 lg:gap-14  border-shiumcustom'>
+                <div className='flex flex-wrap gap-5 px-2 py-4 my-4 overflow-x-scroll tracking-tighter rounded-lg text-shiumcustom font-extralight dark:bg-gray-200 bg-slate-100'style={{width:"95vh"}} >
+                <div className='grid grid-cols-6 gap-5 mx-4 lg:gap-14 border-shiumcustom'>
                     <h3>Exam</h3>
                     <h3>Institute</h3>
                     <h3>Department /Group</h3>

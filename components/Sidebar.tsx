@@ -36,9 +36,9 @@ const Sidebar = () => {
           SHEIKH MAHMUDUL</span>  HASAN SHIUM
           </motion.h3>
       <motion.p variants={fadeInUp} initial="initial" animate="animate"
-      className='px-2 py-1 my-3 rounded-full bg-shiumcustom '>Front-End Development Learner</motion.p>
+      className='px-2 py-1 my-3 rounded-full bg-shiumcustom '>Front-End Developer</motion.p>
       <motion.a variants={fadeInUp} initial="initial" animate="animate"
-        href='/assets/Corrected_cv.pdf' className='flex items-center justify-center px-2 py-2 my-3 rounded-full bg-shiumcustom' download='CV-Of-Sheikh-Mahmudul-Hasan-Shium' target='_blank'><div className='w-5 h-5'><GiTie /></div>Download Resume</motion.a>
+        href='/assets/latest_cv.pdf' className='flex items-center justify-center px-2 py-2 my-3 rounded-full bg-shiumcustom' download='CV-Of-Sheikh-Mahmudul-Hasan-Shium' target='_blank'><div className='w-5 h-5'><GiTie /></div>Download Resume</motion.a>
       {/*Social Media*/}
       <div className='flex justify-around w-9/12 mx-auto my-5 text-shiumcustom md:w-full'>
         <a href="https://github.com/sheikhmahmudulhasanshium" target={'noreferrer'}><div className='w-10 h-10 cursor-pointer'><AiFillGithub   /></div></a>

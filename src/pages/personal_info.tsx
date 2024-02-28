@@ -21,7 +21,7 @@ const personal_info = () => {
 
                     <p><b>Date of Birth: </b> 24-December-2000</p>
                     <p><b>Contact No: </b> +8801729771453</p>
-                    <p><b>Email: </b> Officials.shium@gmail.com</p>
+                    <p><b>Email: </b> officials.shium@gmail.com</p>
                     <p><b>Blood Group:</b> A+</p>
                     <p><b>Gender: </b> Male</p>
                     <p><b>Religion: </b> Islam</p>

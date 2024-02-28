@@ -21,19 +21,12 @@ const personal_info = () => {
 
                     <p><b>Date of Birth: </b> 24-December-2000</p>
                     <p><b>Contact No: </b> +8801729771453</p>
-                    <p><b>Email: </b> sheikh.mahmudul.hasan.shium. aiub@gmail.com</p>
+                    <p><b>Email: </b> Officials.shium@gmail.com</p>
                     <p><b>Blood Group:</b> A+</p>
                     <p><b>Gender: </b> Male</p>
                     <p><b>Religion: </b> Islam</p>
                     <p><b>Marital Status: </b> Unmarried</p>
                 </div>
-                <motion.img initial={{rotate:10, scale: 0 }} animate={{ rotate: 0, scale: 1 }}
-                transition={{
-                    type: "spring",
-                    stiffness: 260,
-                    damping: 20
-                }}
-            src="./images/shium2.JPG" className='mx-auto rounded-lg ' height='108' width='128'  alt="Profile-Pic"/>    
                 
             </div>
         <div className='gap-2 py-5 mx-2 font-medium tracking-wider '>

@@ -36,13 +36,13 @@ const Sidebar = () => {
           SHEIKH MAHMUDUL</span>  HASAN SHIUM
           </motion.h3>
       <motion.p variants={fadeInUp} initial="initial" animate="animate"
-      className='px-2 py-1 my-3 rounded-full bg-shiumcustom '>Front-End Developer</motion.p>
+      className='px-2 py-1 my-3 rounded-full bg-shiumcustom '>Software Engineer</motion.p>
       <motion.a variants={fadeInUp} initial="initial" animate="animate"
-        href='/assets/latest_cv.pdf' className='flex items-center justify-center px-2 py-2 my-3 rounded-full bg-shiumcustom' download='CV-Of-Sheikh-Mahmudul-Hasan-Shium' target='_blank'><div className='w-5 h-5'><GiTie /></div>Download Resume</motion.a>
+        href='/assets/Resume_of_Shium.pdf' className='flex items-center justify-center px-2 py-2 my-3 rounded-full bg-shiumcustom' download='CV-Of-Sheikh-Mahmudul-Hasan-Shium' target='_blank'><div className='w-5 h-5'><GiTie /></div>Download Resume</motion.a>
       {/*Social Media*/}
       <div className='flex justify-around w-9/12 mx-auto my-5 text-shiumcustom md:w-full'>
         <a href="https://github.com/sheikhmahmudulhasanshium" target={'noreferrer'}><div className='w-10 h-10 cursor-pointer'><AiFillGithub   /></div></a>
-        <a href="https://www.linkedin.com/in/sheikh-mahmudul-hasan-shium-5b5938189/" target={'noreferrer'}><div  className="w-10 h-10 cursor-pointer"><AiFillLinkedin /></div></a>
+        <a href="https://www.linkedin.com/in/sheikh-mahmudul-hasan-shium/" target={'noreferrer'}><div  className="w-10 h-10 cursor-pointer"><AiFillLinkedin /></div></a>
         <a href="https://www.facebook.com/skmahmudul.hasanshium" target={'noreferrer'}><div className='w-10 h-10 cursor-pointer'><AiFillFacebook /></div></a>
       </div>
       {/*address*/}
@@ -50,12 +50,12 @@ const Sidebar = () => {
         <div className='flex items-center justify-center space-x-2'><GoLocation/>
              <span>Dhaka, Bangladesh</span>   
         </div>
-        <p className='my-2 text-sm md:px-3'>sheikh.mahmudul.hasan.shium. aiub@gmail.com</p>
-        <p className='my-2'>01729771453/01622937429</p>
+        <p className='my-2 text-sm md:px-3'>officials.shium@gmail.com</p>
+        <p className='my-2'>01729771453</p>
       </div>
       <button className='w-8/12 px-5 py-2 my-2 text-black rounded-full bg-gradient-to-r from-slate-300 to-shiumcustom focus:outline-none'
        
-       onClick={()=>window.open('mailto:sheikh.mamhmudul.hasan.shium.aiub@gmail.com')
+       onClick={()=>window.open('mailto:officials.shium@gmail.com')
       }>Email</button>
       <button onClick={changeTheme} className='w-8/12 px-5 py-2 my-2 text-black rounded-full bg-gradient-to-r from-slate-300 to-shiumcustom'>Toogle UI</button>
     </>

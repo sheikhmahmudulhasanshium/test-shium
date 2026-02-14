@@ -1,21 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  // We only scan files that contain actual HTML/React code
   content: [
-    "./app/**/{*.tsx,*.mp3}",
-    "./pages/**/*.tsx",
-    "./components/**/*.tsx",
-    "./public/**/*.mp3",
-    // Or if using `src` directory:
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: 'class',
-    theme: {
-    fontFamily:{
+  darkMode: 'class', // Perfect for your next-themes setup
+  theme: {
+    fontFamily: {
       kaushan: ['Kaushan Script'],
     },
     extend: {
-      colors:{
-        shiumcustom: {DEFAULT:'#6488E7'},
+      colors: {
+        // Your custom brand color
+        shiumcustom: { DEFAULT: '#6488E7' },
       },
     },
   },

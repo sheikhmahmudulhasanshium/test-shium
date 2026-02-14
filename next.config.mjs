@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',      // Keeps your site DDoS-resistant (Static)
+  // We removed 'output: export' so your API routes work
   images: {
-    unoptimized: true,   // REQUIRED for static export and Google Drive images
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -10,7 +10,7 @@ const nextConfig = {
       },
     ],
   },
-  poweredByHeader: false, // Security: Hides that you are using Next.js
+  poweredByHeader: false, // This hides your tech stack from hackers
   reactStrictMode: true,
 };
 
